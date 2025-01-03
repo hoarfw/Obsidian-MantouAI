@@ -1,10 +1,14 @@
 # MantouAI—— 让Obsidian变身智能助手
+
+修改版：支持Ollama 的本地模型或者其他openai的api兼容的模型
+
 <p align="center">
   <img src="imgs/logo.png" width=300 height=300 alt="MantouGPT Logo"/>
 </p>
 <p align="center">
   <em>*MantouAI*是为每个人设计的开放个人助手（生活在Obsidian之中），它能协助办公学习、聊天、（未来：上网、写报告、规划旅行...） </em>
 </p>
+
 
 
 ## 1. 什么是MantouAI🐶？
@@ -68,7 +72,7 @@
 4. 根据[教程](https://help.aliyun.com/zh/dashscope/developer-reference/api-details)，免费申请阿里Dashscope账号和api key 
 5. 配置你的key
 <p align="center">
-  <img src="imgs/Pasted image 20240223201706.png" width=800/>
+  <img src="imgs/settings.png" width=800/>
 </p>
 
 ### 3.2 面向开发者
@@ -80,6 +84,7 @@
 
 ## 4. 开发路线图 🗺︎
 - [ ] 本地化大模型（数据隐私）：
+  - [x] 使用Ollama 模型
 	- [ ] Gemma-2b-it（魔改ing，正在接入）
 - [ ] 个性化助手
 	- [ ] 与当前文档对话
